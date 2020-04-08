@@ -1,6 +1,8 @@
 # Welcome to the Studio Week 3!
 So far, we've learned how to set up web pages and embed some pre-existing maps, and then create new base maps with basic markers. This week we'll be working on creating choropleth maps and adding more interactivity.  
 
+Link: https://rmoody3.github.io/studio-week3/
+
 **A brief reminder:** some of these tasks require you to look for comment code in the files to guide you. As a refresher, `<! -- Comments in HTML that look like this -->` and comments in Javascript `// use two slashes like this.`
 
 ## Expected Outputs for this week / what to submit: 
