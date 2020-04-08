@@ -1,7 +1,15 @@
 # Welcome to the Studio Week 3!
-So far, we've learned how to set up web pages and embed some pre-existing maps, and then create new base maps with basic markers. This week we'll be working on creating choropleth maps and adding more interactivity.  
+### Date: 4/8/2020
+### Author: Rowan Moody
+This repo contains a small, 3 page website that contains a series of different base maps, each on it's own page, completed as an assignment for a Webmapping course at Clark University. You can preview the site by clicking the link below. The code used in this repo is a mix of html and css, and utilizes Mapbox mapping and styles.  The tutorial information used in creating this site are detailed below in the Instructions section.
+
+
 
 Link: https://rmoody3.github.io/studio-week3/
+
+**Instructions
+
+So far, we've learned how to set up web pages and embed some pre-existing maps, and then create new base maps with basic markers. This week we'll be working on creating choropleth maps and adding more interactivity.  
 
 **A brief reminder:** some of these tasks require you to look for comment code in the files to guide you. As a refresher, `<! -- Comments in HTML that look like this -->` and comments in Javascript `// use two slashes like this.`
 
