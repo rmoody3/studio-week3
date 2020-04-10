@@ -7,7 +7,7 @@ This repo contains a small, 3 page website that contains a series of different b
 
 Link: https://rmoody3.github.io/studio-week3/
 
-**Instructions
+## Instructions
 
 So far, we've learned how to set up web pages and embed some pre-existing maps, and then create new base maps with basic markers. This week we'll be working on creating choropleth maps and adding more interactivity.  
 
