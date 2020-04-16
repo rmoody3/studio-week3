@@ -1,5 +1,5 @@
 # Welcome to the Studio Week 3!
-### Date: 4/8/2020
+### Date: 4/16/2020
 ### Author: Rowan Moody
 This repo contains a small, 3 page website that contains a series of different base maps, each on it's own page, completed as an assignment for a Webmapping course at Clark University. You can preview the site by clicking the link below. The code used in this repo is a mix of html and css, and utilizes Mapbox mapping and styles.  The tutorial information used in creating this site are detailed below in the Instructions section.
 
