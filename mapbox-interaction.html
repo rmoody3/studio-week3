@@ -20,7 +20,22 @@
       top: 200px;
       bottom: 0;
       width: 100%;
-    }  </style>
+    }
+    #fly {
+      display: block;
+      position: relative;
+      margin: 0px auto;
+      width: 10%;
+      height: 30px;
+      padding: 10px;
+      border: none;
+      border-radius: 2px;
+      font-size: 12px;
+      text-align: center;
+      color: 	#FFFFFF;
+      background: #231F20;
+}
+  </style>
   <!-- Adding styling info for page layout by reading in a CSS file -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -47,6 +62,7 @@ type="text/css"
 <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
 
   <div id="map"></div>
+  <button id="fly">Fly</button>
   <script>
 
     // Initialize the map
@@ -76,7 +92,7 @@ type="text/css"
     map.setPitch(60)
     map.setBearing(45)
 
-
+  document.getElementById('fly').addEventListener('click', function() {
     map.flyTo({
       center: [-71.8023, 42.2626],
       zoom: 9,
@@ -85,7 +101,8 @@ type="text/css"
     easing(t) {
        return t;
      }
-    });
+    })
+  });
  
     // Add a function that sets pitch (tilt) to 60 and bearing (rotation) to 45: https://docs.mapbox.com/mapbox-gl-js/api/#map#setpitch and https://docs.mapbox.com/mapbox-gl-js/api/#map#setbearing
 
